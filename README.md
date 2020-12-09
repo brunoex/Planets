@@ -1,5 +1,5 @@
 # Planets
-Add new planets and calculate dates based on terran time.
+PHP-Symfony = Add new planets and calculate dates based on terran time.
 
 1. Problems and Goal
 * My goal was to create this, where you can Add new planets giving Months and Day of the year and finally calculate the estimated day, month and year on the selected planet. However, I've only managed to calculate the estimated year based on the amount of days per year.

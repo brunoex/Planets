@@ -10,6 +10,7 @@ PHP-Symfony = Add new planets and calculate dates based on terran time.
       MYSQL_ROOT_PASSWORD: pass
       MYSQL_DATABASE: planets
 * There is also the migration that I used for Planets table inside the migrations folder.
+* Or one can simply ignore this part and create by hand and run the Doctrine migration that was created for Planets entity.
 
 3. Symfony
 * I've setted the .env to DATABASE_URL="mysql://root:pass@127.0.0.1:3306/planets?serverVersion=mariadb-10.4.11" to match my Docker container and then I start my server directly with Symfony CLI tool (symfony server:start).

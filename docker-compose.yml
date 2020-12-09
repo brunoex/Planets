@@ -8,11 +8,10 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: pass
-      MYSQL_DATABASE: planets
     volumes:
-      - ./setup.sql:/docker-entrypoint-initdb.d/setup.sql
-      - ./data://var/lib/mysql
-    ports:
+      - ./initdb:/tmp/database
+    command: --init-file="/tmp/database/initdb.sql"
+    ports: 
       - 3306:3306
 
   adminer:

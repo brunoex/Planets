@@ -1,2 +1,2 @@
 # Planets
-Add new planets and calculate dates based on terran time
+PHP-Symfony = Add new planets and calculate dates based on terran time

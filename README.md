@@ -10,7 +10,7 @@ Add new planets and calculate dates based on terran time. (Maybe and overkill fo
       MYSQL_ROOT_PASSWORD: pass
       MYSQL_DATABASE: planets
 * There is also the migration that I used for Planets table inside the migrations folder.
-* Or one can simply ignore this part and create by hand and run the Doctrine migration that was created for Planets entity :
+* Or one can simply ignore this part and create by hand or run the Doctrine migration that was created for Planets entity :
 'CREATE TABLE planets (id INT AUTO_INCREMENT NOT NULL, name VARCHAR(255) NOT NULL, day INT DEFAULT NULL, month INT DEFAULT NULL, PRIMARY KEY(id)) 
 DEFAULT CHARACTER SET utf8mb4 COLLATE `utf8mb4_unicode_ci` ENGINE = InnoDB'
 
